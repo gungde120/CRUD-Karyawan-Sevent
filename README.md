@@ -18,4 +18,4 @@ Backend install & run (folder terminal) :
 
 Front-End install & run (folder terminal) :
 1. npm install
-2. npm run.serve
+2. npm run serve
