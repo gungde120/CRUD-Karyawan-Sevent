@@ -1,0 +1,128 @@
+#app {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-color:rgb(250, 250, 250);
+}
+
+#disabledTextInput {
+    background-color: whitesmoke;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+}
+
+.table {
+    font-size: smaller;
+}
+
+.badge-success {
+    background-color: #4EB883;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+    color: black;
+}
+
+.img {
+    background-image: url('./../images/avatar.jpg') ;
+    border-radius: 100%;
+    border: 1px blue;
+}
+
+.img-fluid {
+    /* border-radius: 15px; */
+    background-image: url('./../images/avatar.jpg') ;
+}
+
+/* pagination for table */
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-button {
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.pagination-button option {
+    padding: 5px;
+}
+
+.pagination-button option:hover {
+    background-color: #3490dc;
+}
+
+.pagination-page-number {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0.1rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+}
+
+.pagination-page-number.active {
+    background-color: #3490dc;
+    color: #fff;
+}
+
+.pagination-previous, .pagination-next {
+    padding: 0.5rem 0.75rem;
+    margin: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #dee2e6;
+}
+
+.pagination-previous {
+    margin-right: 0.5rem;
+}
+
+.pagination-next {
+    margin-left: 0.5rem;
+}
+
+.data-length {
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+    margin-left: 0.5rem;
+    text-align: right;
+}
